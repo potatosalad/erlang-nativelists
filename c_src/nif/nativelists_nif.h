@@ -1,0 +1,29 @@
+// -*- mode: c++; tab-width: 4; indent-tabs-mode: nil; st-rulers: [132] -*-
+// vim: ts=4 sw=4 ft=c++ et
+
+#ifndef NATIVELISTS_NIF_H
+#define NATIVELISTS_NIF_H
+
+#include <errno.h>
+#include <inttypes.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include <erl_nif.h>
+
+#include "xnif_trace.h"
+#include "xnif_memory.h"
+
+extern ErlNifMutex *nativelists_nif_mutex;
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
